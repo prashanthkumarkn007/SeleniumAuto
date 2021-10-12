@@ -10,6 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 public class LinkedIn {
 
@@ -17,6 +18,7 @@ public class LinkedIn {
 	 * @param args
 	 * @throws InterruptedException
 	 */
+	@Test
 	public static void main(String[] args) throws InterruptedException {
 //		String LoginPage="Login";
 //		String ForgotPasswordPage = "Reset";
